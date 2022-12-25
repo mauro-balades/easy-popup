@@ -302,8 +302,6 @@ window.InitEasyPopup = function(EasyPopup){
 
     // Get popup object by ID
     EasyPopup.get = id => window.EasyPopupData.get(id);
-    console.log("load")
-
 }
 
 window.addEventListener("load", () => {window.InitEasyPopup(window.EasyPopup = window.EasyPopup || {})});
